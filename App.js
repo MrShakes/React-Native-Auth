@@ -23,6 +23,7 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   componentWillMount() {
     // Initialize Firebase
+    // This config will be in its own file in an actual App
     var config = {
       apiKey: "AIzaSyDOAMWCCGf9Wip0uU3I8gbAVFZGyzabw6w",
       authDomain: "manager-7f82c.firebaseapp.com",
